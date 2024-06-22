@@ -60,4 +60,12 @@ services:
     ports:
       - "${CADVISOR_PORT:-8080}:8080"
     restart: always
+
+
+  redisjson:
+    image: redislabs/rejson
+    container_name: redis-redisjson
+    ports:
+      - "6379:6379"
+    restart: always
          
