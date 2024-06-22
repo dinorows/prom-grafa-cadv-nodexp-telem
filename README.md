@@ -1,5 +1,5 @@
 # Docker Monitoring
-Monitor your Docker containers using prometheus, node-exporter, and grafana on Windows
+Monitor your Docker containers using prometheus, cAdvisor, node-exporter, and grafana on Windows
 
 ## Pre-requisites
 
