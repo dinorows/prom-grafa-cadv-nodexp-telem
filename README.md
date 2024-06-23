@@ -1,5 +1,5 @@
 # Docker Monitoring
-Monitor your Docker containers using prometheus, cAdvisor, node-exporter, and grafana on Windows
+Monitor your Docker containers using prometheus, cAdvisor, node-exporter, and grafana.
 
 ## Pre-requisites
 
@@ -24,6 +24,8 @@ prometheus exited with code 2
 So, need to spin up the prometheus container outside of docker-compose like so:
 
 ```docker run -p 9090:9090 -v ./prometheus/prometheus.yml prom/prometheus```
+
+Is it a Windows issue? "Mystere et boule de gomme", as the Frensh say.
 
 ## Configuration
 
