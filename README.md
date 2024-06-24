@@ -9,9 +9,9 @@ Monitor your Docker containers using prometheus, cAdvisor, node-exporter, and gr
 
 ```docker-compose up```
 
-Goto http://localhost:3000 for grafana dashboard (default user/pass : admin/admin )
+Goto http://localhost:3000 for grafana dashboard (default user/password : admin/admin )
 
-## Problems woth DockerToolbox
+## Problems with DockerToolbox
 
 Docker Toolbox docker-compose volumes are broken: The contents of the source folder become directories instead of folders on the target container:
 
